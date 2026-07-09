@@ -241,13 +241,23 @@
   }
 
   /* =====================================================
-     CONTACT FORM validation (front-end demo)
+     CONTACT FORM
+     ---------------------------------------------------------------
+     To receive messages straight to your inbox, create a free form at
+     https://formspree.io and paste its endpoint below, e.g.
+       var FORM_ENDPOINT = 'https://formspree.io/f/abcdwxyz';
+     If left empty, the form opens the visitor's email app addressed to
+     you instead (works with zero setup).
      ===================================================== */
+  var FORM_ENDPOINT = '';
+  var CONTACT_EMAIL = 'yassminachatt4@gmail.com';
+
   function initForm() {
     const form = document.getElementById('contactForm');
     if (!form) return;
     const note = document.getElementById('formNote');
     const btn = document.getElementById('submitBtn');
+    const label = btn.querySelector('.btn__label');
 
     const setError = function (name, msg) {
       const field = form.querySelector('[name="' + name + '"]').closest('.field');
@@ -256,7 +266,11 @@
       if (errEl) errEl.textContent = msg || '';
     };
 
-    // validate on blur
+    const setStatus = function (msg, type) {
+      note.textContent = msg;
+      note.className = 'contact__note' + (type ? ' is-' + type : '');
+    };
+
     ['name', 'email', 'message'].forEach(function (n) {
       const input = form.querySelector('[name="' + n + '"]');
       input.addEventListener('blur', function () { validateField(n); });
@@ -278,18 +292,40 @@
         if (firstInvalid) firstInvalid.focus();
         return;
       }
-      // Demo submit — wire to your backend / Formspree / email service here.
-      btn.disabled = true;
-      btn.querySelector('.btn__label').textContent = 'Sending…';
-      note.className = 'contact__note';
-      note.textContent = '';
-      setTimeout(function () {
-        btn.disabled = false;
-        btn.querySelector('.btn__label').textContent = 'Send Message';
-        note.textContent = 'Thanks! Your message has been sent. [Wire this form to a real service — see js/main.js]';
-        note.className = 'contact__note is-success';
-        form.reset();
-      }, 1200);
+
+      const data = {
+        name: form.querySelector('[name="name"]').value.trim(),
+        email: form.querySelector('[name="email"]').value.trim(),
+        message: form.querySelector('[name="message"]').value.trim()
+      };
+
+      // No backend configured → open the visitor's email app addressed to you.
+      if (!FORM_ENDPOINT) {
+        const subject = encodeURIComponent('Portfolio enquiry from ' + data.name);
+        const body = encodeURIComponent(data.message + '\n\n— ' + data.name + ' (' + data.email + ')');
+        window.location.href = 'mailto:' + CONTACT_EMAIL + '?subject=' + subject + '&body=' + body;
+        setStatus('Opening your email app… if nothing happens, email me directly at ' + CONTACT_EMAIL + '.', 'success');
+        return;
+      }
+
+      // Backend configured (Formspree) → send via fetch, stay on page.
+      btn.disabled = true; label.textContent = 'Sending…'; setStatus('', '');
+      fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      }).then(function (res) {
+        if (res.ok) {
+          setStatus("Thanks! Your message has been sent — I'll get back to you soon.", 'success');
+          form.reset();
+        } else {
+          setStatus('Something went wrong. Please email me directly at ' + CONTACT_EMAIL + '.', 'error');
+        }
+      }).catch(function () {
+        setStatus('Network error. Please email me directly at ' + CONTACT_EMAIL + '.', 'error');
+      }).finally(function () {
+        btn.disabled = false; label.textContent = 'Send Message';
+      });
     });
   }
 
