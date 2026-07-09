@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="900" height="1200" fill="#1c1c22"/>
+  <!-- browser window -->
+  <rect x="40" y="50" width="820" height="1100" rx="18" fill="#f7f1e8"/>
+  <rect x="40" y="50" width="820" height="60" rx="18" fill="#ece3d5"/>
+  <rect x="40" y="92" width="820" height="18" fill="#ece3d5"/>
+  <circle cx="78" cy="80" r="7" fill="#e06a5b"/><circle cx="102" cy="80" r="7" fill="#e8b84b"/><circle cx="126" cy="80" r="7" fill="#7bbf7b"/>
+  <rect x="300" y="68" width="300" height="24" rx="12" fill="#f7f1e8"/>
+  <text x="450" y="85" text-anchor="middle" font-size="13" fill="#9a8f7d" font-family="Arial">lumiere-restaurant.com</text>
+  <!-- nav -->
+  <text x="80" y="175" font-size="30" letter-spacing="3" fill="#14532d">LUMIÈRE</text>
+  <g font-family="Arial" font-size="15" fill="#5b5346">
+    <text x="560" y="172">Menu</text><text x="640" y="172">About</text><text x="720" y="172">Contact</text>
+  </g>
+  <rect x="80" y="220" width="740" height="1" fill="#dbcfbb"/>
+  <!-- hero -->
+  <text x="80" y="330" font-size="72" fill="#14532d" font-style="italic">Fine dining,</text>
+  <text x="80" y="410" font-size="72" fill="#14532d" font-style="italic">fresh flavors.</text>
+  <text x="82" y="460" font-size="17" fill="#6b6152" font-family="Arial">Seasonal cuisine crafted with love, served in the</text>
+  <text x="82" y="486" font-size="17" fill="#6b6152" font-family="Arial">heart of the old town.</text>
+  <rect x="80" y="520" width="200" height="54" rx="27" fill="#c9a227"/>
+  <text x="180" y="554" text-anchor="middle" font-size="16" fill="#1c1c22" font-family="Arial" font-weight="bold" letter-spacing="1">RESERVE A TABLE</text>
+  <!-- hero plate -->
+  <circle cx="640" cy="420" r="155" fill="#eaddc7"/>
+  <circle cx="640" cy="420" r="120" fill="#14532d"/>
+  <circle cx="640" cy="420" r="70" fill="#c9a227" opacity="0.9"/>
+  <circle cx="612" cy="398" r="16" fill="#e8b84b"/><circle cx="672" cy="410" r="12" fill="#e06a5b"/><circle cx="640" cy="452" r="14" fill="#7bbf7b"/>
+  <!-- dish cards -->
+  <g>
+    <rect x="80" y="640" width="230" height="330" rx="14" fill="#ffffff"/>
+    <rect x="80" y="640" width="230" height="180" rx="14" fill="#d9c9a8"/><circle cx="195" cy="730" r="55" fill="#14532d"/>
+    <text x="100" y="865" font-size="22" fill="#14532d">Truffle Pasta</text>
+    <text x="100" y="895" font-size="14" fill="#8a8072" font-family="Arial">Hand-made, black truffle</text>
+    <text x="100" y="945" font-size="22" fill="#c9a227" font-weight="bold">$24</text>
+  </g>
+  <g>
+    <rect x="335" y="640" width="230" height="330" rx="14" fill="#ffffff"/>
+    <rect x="335" y="640" width="230" height="180" rx="14" fill="#e0b6ac"/><circle cx="450" cy="730" r="55" fill="#a33b2c"/>
+    <text x="355" y="865" font-size="22" fill="#14532d">Seared Salmon</text>
+    <text x="355" y="895" font-size="14" fill="#8a8072" font-family="Arial">Citrus glaze, greens</text>
+    <text x="355" y="945" font-size="22" fill="#c9a227" font-weight="bold">$28</text>
+  </g>
+  <g>
+    <rect x="590" y="640" width="230" height="330" rx="14" fill="#ffffff"/>
+    <rect x="590" y="640" width="230" height="180" rx="14" fill="#cdbd9a"/><circle cx="705" cy="730" r="55" fill="#c9a227"/>
+    <text x="610" y="865" font-size="22" fill="#14532d">Lemon Tart</text>
+    <text x="610" y="895" font-size="14" fill="#8a8072" font-family="Arial">Seasonal dessert</text>
+    <text x="610" y="945" font-size="22" fill="#c9a227" font-weight="bold">$12</text>
+  </g>
+  <!-- footer strip -->
+  <rect x="80" y="1010" width="740" height="90" rx="14" fill="#14532d"/>
+  <text x="450" y="1055" text-anchor="middle" font-size="22" fill="#f7f1e8" font-style="italic">Open Tue–Sun · 18h–23h</text>
+  <text x="450" y="1082" text-anchor="middle" font-size="13" fill="#a9c3ac" font-family="Arial" letter-spacing="2">12 RUE DES OLIVIERS · TANGER</text>
+</svg>

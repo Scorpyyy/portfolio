@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yasmin Chatt — Graphic & Web Designer</title>
+  <meta name="description" content="Yasmin Chatt (scorpy) is a freelance graphic and website designer specializing in Canva design, data entry and digital organization." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css?v=10" />
+</head>
+<body>
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <img class="preloader__mark" src="assets/scorpion-logo.png" alt="" aria-hidden="true" />
+      <div class="preloader__logo">SCORPY</div>
+      <div class="preloader__bar"><span id="preload-fill"></span></div>
+      <div class="preloader__count"><span id="preload-count">0</span>%</div>
+    </div>
+  </div>
+
+  <!-- ============ BACKGROUND FX ============ -->
+  <div class="fx-grid" aria-hidden="true"></div>
+  <div class="fx-noise" aria-hidden="true"></div>
+  <div class="fx-scanline" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" aria-label="Yasmin Chatt — home">
+      <img class="nav__logo-mark" src="assets/scorpion-logo.png" alt="Scorpy scorpion logo" />
+      <span class="nav__logo-text">SCORPY</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav__cta magnetic">Let's Talk</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Let's Talk</a>
+  </div>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__photo" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__eyebrow reveal">
+        <span class="dot"></span> Graphic Design <span class="sep">/</span> Website Design <span class="sep">/</span> Digital Organization
+      </div>
+
+      <h1 class="hero__title" aria-label="Yasmin Chatt">
+        <span class="glitch" data-text="YASMIN">YASMIN</span><br><span class="glitch accent" data-text="CHATT">CHATT</span>
+      </h1>
+
+      <div class="hero__meta">
+        <p class="hero__intro reveal">
+          Hi, I'm <strong>Yasmin Chatt</strong> — a freelance graphic &amp; website designer.
+          I create <em>clean, effective visuals</em> and <em>structured digital solutions</em>,
+          pairing strong design with analytical thinking to deliver reliable results for clients.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#work" class="btn btn--primary magnetic">View Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--ghost magnetic">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll reveal" aria-hidden="true">
+        <span>SCROLL</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+
+      <!-- floating accents -->
+      <div class="hero__accent hero__accent--1 parallax" data-speed="2" aria-hidden="true"></div>
+      <div class="hero__accent hero__accent--2 parallax" data-speed="-3" aria-hidden="true"></div>
+      <div class="hero__year parallax" data-speed="-2" aria-hidden="true">2026</div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>GRAPHIC DESIGN <b>✳</b> CANVA DESIGN <b>✳</b> WEBSITE DESIGN <b>✳</b> DATA ENTRY <b>✳</b> DIGITAL ORGANIZATION <b>✳</b> BRANDING <b>✳</b></span>
+        <span>GRAPHIC DESIGN <b>✳</b> CANVA DESIGN <b>✳</b> WEBSITE DESIGN <b>✳</b> DATA ENTRY <b>✳</b> DIGITAL ORGANIZATION <b>✳</b> BRANDING <b>✳</b></span>
+      </div>
+    </div>
+
+    <!-- ============ WORK ============ -->
+    <section class="section work" id="work">
+      <div class="section__head reveal">
+        <span class="section__index">01</span>
+        <h2 class="section__title">Selected <span class="accent">Work</span></h2>
+        <p class="section__sub">A selection of posters, social media designs, branding and website concepts — from real projects for ENSI Tanger clubs to concept pieces that show my range.</p>
+      </div>
+
+      <div class="filters reveal" role="tablist" aria-label="Filter work">
+        <button class="filter is-active" data-filter="all">All</button>
+        <button class="filter" data-filter="poster">Posters &amp; Flyers</button>
+        <button class="filter" data-filter="social">Social Media</button>
+        <button class="filter" data-filter="album">Album Covers</button>
+        <button class="filter" data-filter="brand">Branding</button>
+        <button class="filter" data-filter="web">Websites</button>
+      </div>
+
+      <div class="grid" id="workGrid">
+        <!-- Real projects. Drop the matching image into assets/work/ (see filename in each style="--img:..."). -->
+        <article class="card" data-cat="poster" style="--img:url('../assets/work/cinema.jpg')">
+          <div class="card__img"><span class="card__ph">CINÉMA</span></div>
+          <div class="card__body">
+            <span class="card__tag">Event Poster</span>
+            <h3>Atelier de Cinéma</h3>
+            <p>Event poster for Artwave / BDA ENSI — a cinema workshop. Bold orange &amp; black film-noir styling.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="poster" style="--img:url('../assets/work/defile.jpg')">
+          <div class="card__img"><span class="card__ph">DÉFILÉ</span></div>
+          <div class="card__body">
+            <span class="card__tag">Event Poster</span>
+            <h3>Atelier de Défilé</h3>
+            <p>Registration poster for the ENSI fashion-show club — elegant editorial type over a hand-painted figure.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="social" style="--img:url('../assets/work/debate.png')">
+          <div class="card__img"><span class="card__ph">DEBATE</span></div>
+          <div class="card__body">
+            <span class="card__tag">Club Promo</span>
+            <h3>Debate Club</h3>
+            <p>Recruitment poster for the Debate Club — energetic layout, "Speak Bold, Think Sharp".</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="social" style="--img:url('../assets/work/book.png')">
+          <div class="card__img"><span class="card__ph">BOOK</span></div>
+          <div class="card__body">
+            <span class="card__tag">Social Media</span>
+            <h3>Book Recommendation — The Stranger</h3>
+            <p>Instagram post for Alexandria Scrolls — monochrome editorial design featuring Camus's classic.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="album" style="--img:url('../assets/work/album-dream.png')">
+          <div class="card__img"><span class="card__ph">DREAM</span></div>
+          <div class="card__body">
+            <span class="card__tag">Album Cover</span>
+            <h3>Dream — Crying in Fire</h3>
+            <p>Album cover &amp; release mockup — bold serif typography over a fiery turntable scene.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="album" style="--img:url('../assets/work/album-blured.png')">
+          <div class="card__img"><span class="card__ph">BLURED</span></div>
+          <div class="card__body">
+            <span class="card__tag">Album Cover</span>
+            <h3>Blured — The Fragile Season</h3>
+            <p>Album cover &amp; release mockup — motion-blur portrait with bold red type. Vol 01, 2025.</p>
+          </div>
+        </article>
+
+        <!-- ===== Concept samples (generated) ===== -->
+        <article class="card" data-cat="web" style="--img:url('../assets/work/web-saas.svg')">
+          <div class="card__img"><span class="card__ph">WEB</span></div>
+          <div class="card__body">
+            <span class="card__tag">Website · SaaS</span>
+            <h3>Nova — Tech Landing Page</h3>
+            <p>Dark, modern SaaS landing concept with gradient accents and a dashboard hero. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="web" style="--img:url('../assets/work/web-restaurant.svg')">
+          <div class="card__img"><span class="card__ph">WEB</span></div>
+          <div class="card__body">
+            <span class="card__tag">Website · Restaurant</span>
+            <h3>Lumière — Restaurant Site</h3>
+            <p>Warm, elegant dining website concept with serif type and a gold palette. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="web" style="--img:url('../assets/work/web-fashion.svg')">
+          <div class="card__img"><span class="card__ph">WEB</span></div>
+          <div class="card__body">
+            <span class="card__tag">Website · Fashion</span>
+            <h3>Maison — Fashion Store</h3>
+            <p>Minimal editorial e-commerce concept, black-and-white with generous whitespace. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="brand" style="--img:url('../assets/work/logo-volt.svg')">
+          <div class="card__img"><span class="card__ph">BRAND</span></div>
+          <div class="card__body">
+            <span class="card__tag">Branding</span>
+            <h3>Volt — Energy Brand</h3>
+            <p>Bold logo system with a lightning mark, electric palette and packaging mock. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="brand" style="--img:url('../assets/work/logo-botanica.svg')">
+          <div class="card__img"><span class="card__ph">BRAND</span></div>
+          <div class="card__body">
+            <span class="card__tag">Branding</span>
+            <h3>Botanica — Skincare Identity</h3>
+            <p>Organic brand identity with a leaf mark, sage palette and business card. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="poster" style="--img:url('../assets/work/poster-music.svg')">
+          <div class="card__img"><span class="card__ph">POSTER</span></div>
+          <div class="card__body">
+            <span class="card__tag">Poster</span>
+            <h3>Sound Wave Fest</h3>
+            <p>Vibrant open-air music festival poster with a gradient sky and sound-wave graphic. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="poster" style="--img:url('../assets/work/poster-film.svg')">
+          <div class="card__img"><span class="card__ph">POSTER</span></div>
+          <div class="card__body">
+            <span class="card__tag">Poster</span>
+            <h3>Éclipse — Film Poster</h3>
+            <p>Cinematic minimalist film poster with an eclipse motif and elegant credits block. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="poster" style="--img:url('../assets/work/flyer-party.svg')">
+          <div class="card__img"><span class="card__ph">FLYER</span></div>
+          <div class="card__body">
+            <span class="card__tag">Flyer</span>
+            <h3>Neon Nights — Club Flyer</h3>
+            <p>Energetic party flyer with neon rings and gradient type. Concept design.</p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="poster" style="--img:url('../assets/work/flyer-sale.svg')">
+          <div class="card__img"><span class="card__ph">FLYER</span></div>
+          <div class="card__body">
+            <span class="card__tag">Flyer</span>
+            <h3>Black Friday — Sale Flyer</h3>
+            <p>High-impact retail sale flyer with a bold discount and clear call to action. Concept design.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services">
+      <div class="section__head reveal">
+        <span class="section__index">02</span>
+        <h2 class="section__title">What I <span class="accent">Do</span></h2>
+        <p class="section__sub">From a single graphic to a full brand system — here's how I can help.</p>
+      </div>
+
+      <div class="svc-grid">
+        <article class="svc reveal">
+          <div class="svc__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 15l4-4 4 4M14 13l2-2 5 5"/><circle cx="8.5" cy="8.5" r="1.5"/></svg>
+          </div>
+          <h3>Graphic &amp; Canva Design</h3>
+          <p>Clean, effective visuals — posters, social media, and brand assets designed to communicate clearly.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
+          </div>
+          <h3>Website Design</h3>
+          <p>Modern, responsive websites and landing pages — from concept and layout through to a polished build.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 4v16"/></svg>
+          </div>
+          <h3>Data Entry</h3>
+          <p>Accurate, fast data entry with a sharp eye for detail — spreadsheets, records and databases kept clean.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+          </div>
+          <h3>Digital Organization</h3>
+          <p>Structured digital systems — files, assets and workflows organized so everything is easy to find and use.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="about__grid">
+        <div class="about__intro reveal">
+          <span class="section__index">03</span>
+          <h2 class="section__title">Hello <span class="accent">!</span></h2>
+          <p>I'm Yasmin Chatt — also known as <strong>scorpy</strong> — a freelance graphic and website designer with experience in Canva design, data entry, and digital organization.</p>
+          <p>I create clean, effective visuals and structured digital solutions, applying strong analytical thinking, problem-solving, and teamwork skills to deliver reliable results for every client.</p>
+        </div>
+
+        <div class="about__tools reveal">
+            <span class="about__tools-label">Design &amp; Motion</span>
+            <ul class="tool-badges">
+              <li class="tool" style="--tc:#31A8FF"><span class="tool__badge">Ps</span>Photoshop</li>
+              <li class="tool" style="--tc:#FF9A00"><span class="tool__badge">Ai</span>Illustrator</li>
+              <li class="tool" style="--tc:#FF3366"><span class="tool__badge">Id</span>InDesign</li>
+              <li class="tool" style="--tc:#9D7BFF"><span class="tool__badge">Ae</span>After Effects</li>
+              <li class="tool" style="--tc:#00C4CC"><span class="tool__badge">Cv</span>Canva</li>
+              <li class="tool" style="--tc:#F24E1E"><span class="tool__badge">Fi</span>Figma</li>
+            </ul>
+            <span class="about__tools-label">Web Development</span>
+            <ul class="tool-badges">
+              <li class="tool" style="--tc:#E34F26"><span class="tool__badge">&lt;&gt;</span>HTML5</li>
+              <li class="tool" style="--tc:#1572B6"><span class="tool__badge">C3</span>CSS3</li>
+              <li class="tool" style="--tc:#F7DF1E"><span class="tool__badge dark">JS</span>JavaScript</li>
+              <li class="tool" style="--tc:#61DAFB"><span class="tool__badge dark">Re</span>React</li>
+              <li class="tool" style="--tc:#3858E9"><span class="tool__badge">Wp</span>WordPress</li>
+              <li class="tool" style="--tc:#22A6F2"><span class="tool__badge">Vs</span>VS Code</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="about__stats">
+        <div class="stat reveal"><span class="stat__num" data-count="50">0</span><span class="stat__plus">+</span><p>Projects delivered</p></div>
+        <div class="stat reveal"><span class="stat__num" data-count="20">0</span><span class="stat__plus">+</span><p>Happy clients</p></div>
+        <div class="stat reveal"><span class="stat__num" data-count="100">0</span><span class="stat__plus">%</span><p>Detail &amp; reliability</p></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="contact__grid">
+        <div class="contact__left reveal">
+          <span class="section__index">04</span>
+          <h2 class="section__title">Let's build<br>something <span class="accent">great.</span></h2>
+          <p>For collaborations, commissions or just to say hi — I'd love to hear from you.</p>
+
+          <ul class="contact__list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <a href="mailto:yassminachatt4@gmail.com">yassminachatt4@gmail.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+              <a href="tel:+212778111612">+212 778 111 612</a>
+            </li>
+          </ul>
+
+          <div class="contact__socials">
+            <a href="https://www.instagram.com/scorpy_yy" target="_blank" rel="noopener" aria-label="Instagram — scorpy_yy" class="magnetic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="https://www.linkedin.com/in/yasmin-chatt-53421241a" target="_blank" rel="noopener" aria-label="LinkedIn — Yasmin Chatt" class="magnetic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 17v-7"/></svg></a>
+            <button type="button" class="social-copy magnetic" data-copy="scorpy_yy" aria-label="Discord: scorpy_yy — click to copy"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.3 5.6A16.2 16.2 0 0 0 15.3 4.4l-.2.4a15 15 0 0 1 3.5 1.1 12.9 12.9 0 0 0-11.1 0 15 15 0 0 1 3.5-1.1l-.2-.4a16.2 16.2 0 0 0-4 1.2C4 9.2 3.3 12.7 3.6 16.2a16.4 16.4 0 0 0 5 2.5l.4-.6a10.6 10.6 0 0 1-1.7-.8l.4-.3a9.3 9.3 0 0 0 8 0l.4.3a10.6 10.6 0 0 1-1.7.8l.4.6a16.4 16.4 0 0 0 5-2.5c.4-4.1-.6-7.6-2.9-10.6ZM9.5 14.3c-.8 0-1.4-.7-1.4-1.6s.6-1.6 1.4-1.6 1.5.7 1.4 1.6c0 .9-.6 1.6-1.4 1.6Zm5 0c-.8 0-1.4-.7-1.4-1.6s.6-1.6 1.4-1.6 1.5.7 1.4 1.6c0 .9-.6 1.6-1.4 1.6Z"/></svg><span class="social-copy__tip" aria-hidden="true">scorpy_yy</span></button>
+          </div>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required placeholder="Jane Doe" />
+            <span class="field__error" data-for="name"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="jane@email.com" />
+            <span class="field__error" data-for="email"></span>
+          </div>
+          <div class="field">
+            <label for="message">Project details <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="4" required placeholder="Tell me about your project…"></textarea>
+            <span class="field__error" data-for="message"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block magnetic" id="submitBtn">
+            <span class="btn__label">Send Message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="contact__note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">YASMIN CHATT</div>
+    <div class="footer__row">
+      <span>© <span id="year"></span> Yasmin Chatt (scorpy). All rights reserved.</span>
+      <span class="footer__made">Designed &amp; built with intent.</span>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js?v=10"></script>
+</body>
+</html>

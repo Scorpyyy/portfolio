@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" font-family="'Arial Black', Arial, sans-serif">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a0ca3"/><stop offset="0.5" stop-color="#7209b7"/><stop offset="1" stop-color="#f72585"/>
+    </linearGradient>
+    <linearGradient id="mw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd60a"/><stop offset="1" stop-color="#ff7b00"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#mg)"/>
+  <circle cx="720" cy="200" r="220" fill="#f72585" opacity="0.35"/>
+  <circle cx="160" cy="960" r="200" fill="#4cc9f0" opacity="0.25"/>
+  <text x="80" y="130" font-size="18" fill="#ffd60a" letter-spacing="8">TANGER · OPEN AIR</text>
+  <!-- title -->
+  <text x="72" y="300" font-size="118" font-weight="900" fill="#ffffff" letter-spacing="-2">SOUND</text>
+  <text x="72" y="410" font-size="118" font-weight="900" fill="url(#mw)" letter-spacing="-2">WAVE</text>
+  <text x="72" y="500" font-size="70" font-weight="900" fill="#ffffff" letter-spacing="14">FEST</text>
+  <!-- sound wave -->
+  <g fill="#ffffff">
+    <rect x="80" y="600" width="14" height="60" rx="7"/><rect x="110" y="580" width="14" height="100" rx="7"/>
+    <rect x="140" y="550" width="14" height="160" rx="7"/><rect x="170" y="600" width="14" height="60" rx="7"/>
+    <rect x="200" y="520" width="14" height="220" rx="7"/><rect x="230" y="570" width="14" height="120" rx="7"/>
+    <rect x="260" y="540" width="14" height="180" rx="7"/><rect x="290" y="600" width="14" height="60" rx="7"/>
+    <rect x="320" y="560" width="14" height="140" rx="7"/><rect x="350" y="520" width="14" height="220" rx="7"/>
+    <rect x="380" y="590" width="14" height="80" rx="7"/><rect x="410" y="550" width="14" height="160" rx="7"/>
+    <rect x="440" y="600" width="14" height="60" rx="7"/><rect x="470" y="530" width="14" height="200" rx="7"/>
+    <rect x="500" y="575" width="14" height="110" rx="7"/><rect x="530" y="545" width="14" height="170" rx="7"/>
+    <rect x="560" y="600" width="14" height="60" rx="7"/><rect x="590" y="560" width="14" height="140" rx="7"/>
+    <rect x="620" y="520" width="14" height="220" rx="7"/><rect x="650" y="590" width="14" height="80" rx="7"/>
+    <rect x="680" y="550" width="14" height="160" rx="7"/><rect x="710" y="600" width="14" height="60" rx="7"/>
+    <rect x="740" y="540" width="14" height="180" rx="7"/><rect x="770" y="580" width="14" height="100" rx="7"/>
+    <rect x="800" y="600" width="14" height="60" rx="7"/>
+  </g>
+  <!-- lineup -->
+  <rect x="80" y="800" width="740" height="2" fill="#ffffff" opacity="0.5"/>
+  <text x="450" y="870" text-anchor="middle" font-size="30" fill="#fff" letter-spacing="2">DAFT LUNA · NØVA · KAIRO</text>
+  <text x="450" y="915" text-anchor="middle" font-size="24" fill="#ffd60a" letter-spacing="2">+ 12 LIVE ACTS</text>
+  <rect x="80" y="960" width="740" height="2" fill="#ffffff" opacity="0.5"/>
+  <!-- date footer -->
+  <text x="80" y="1080" font-size="60" font-weight="900" fill="#ffffff">22·23 AUG</text>
+  <text x="80" y="1130" font-size="22" fill="#ffd60a" letter-spacing="3">2025 · TICKETS AT SOUNDWAVE.MA</text>
+</svg>

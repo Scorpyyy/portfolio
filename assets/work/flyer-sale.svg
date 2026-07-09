@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" font-family="'Arial Black', Arial, sans-serif">
+  <rect width="900" height="1200" fill="#0c0c0c"/>
+  <!-- diagonal red band -->
+  <polygon points="0,240 900,120 900,560 0,680" fill="#e60023"/>
+  <text x="80" y="150" font-size="22" fill="#e60023" letter-spacing="10">LIMITED TIME ONLY</text>
+  <text x="70" y="360" font-size="96" font-weight="900" fill="#0c0c0c">BLACK</text>
+  <text x="70" y="470" font-size="96" font-weight="900" fill="#ffffff">FRIDAY</text>
+  <!-- big % -->
+  <text x="450" y="800" text-anchor="middle" font-size="300" font-weight="900" fill="#e60023" letter-spacing="-10">70%</text>
+  <text x="450" y="880" text-anchor="middle" font-size="70" font-weight="900" fill="#ffffff" letter-spacing="18">OFF</text>
+  <!-- tags -->
+  <g font-family="Arial" font-size="16" fill="#0c0c0c">
+    <rect x="150" y="930" width="180" height="46" rx="23" fill="#ffffff"/><text x="240" y="960" text-anchor="middle" letter-spacing="1">FASHION</text>
+    <rect x="360" y="930" width="180" height="46" rx="23" fill="#ffffff"/><text x="450" y="960" text-anchor="middle" letter-spacing="1">TECH</text>
+    <rect x="570" y="930" width="180" height="46" rx="23" fill="#ffffff"/><text x="660" y="960" text-anchor="middle" letter-spacing="1">HOME</text>
+  </g>
+  <!-- CTA -->
+  <rect x="220" y="1030" width="460" height="80" rx="40" fill="#e60023"/>
+  <text x="450" y="1082" text-anchor="middle" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="4">SHOP NOW</text>
+  <text x="450" y="1160" text-anchor="middle" font-size="16" fill="#8a8a8a" font-family="Arial" letter-spacing="3">28–30 NOV · IN STORE &amp; ONLINE</text>
+</svg>

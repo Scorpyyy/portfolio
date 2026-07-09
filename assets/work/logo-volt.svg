@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" font-family="'Arial Black', Arial, sans-serif">
+  <defs>
+    <linearGradient id="volt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaff3d"/><stop offset="1" stop-color="#25e0d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#0c0d10"/>
+  <rect x="0" y="0" width="900" height="720" fill="#111318"/>
+  <text x="80" y="90" font-size="14" fill="#5a5f66" letter-spacing="5">LOGO SYSTEM · ENERGY</text>
+  <circle cx="700" cy="250" r="220" fill="#eaff3d" opacity="0.06"/>
+  <!-- bolt mark -->
+  <g transform="translate(450 300)">
+    <polygon points="-10,-130 -70,20 -8,20 -28,130 78,-40 8,-40 60,-130" fill="url(#volt)"/>
+  </g>
+  <text x="450" y="530" text-anchor="middle" font-size="130" font-weight="900" fill="#ffffff" letter-spacing="8">VOLT</text>
+  <text x="450" y="585" text-anchor="middle" font-size="18" fill="#eaff3d" letter-spacing="12" font-family="Arial">ENERGY · REIMAGINED</text>
+  <!-- palette -->
+  <text x="80" y="800" font-size="14" fill="#6a6f77" letter-spacing="3" font-family="Arial">PALETTE</text>
+  <rect x="80" y="820" width="90" height="90" rx="10" fill="#eaff3d"/>
+  <rect x="185" y="820" width="90" height="90" rx="10" fill="#25e0d0"/>
+  <rect x="290" y="820" width="90" height="90" rx="10" fill="#111318"/>
+  <rect x="395" y="820" width="90" height="90" rx="10" fill="#ffffff"/>
+  <!-- mark variants -->
+  <text x="560" y="800" font-size="14" fill="#6a6f77" letter-spacing="3" font-family="Arial">MARK</text>
+  <rect x="560" y="815" width="100" height="100" rx="16" fill="#0c0d10" stroke="#2a2d33"/>
+  <g transform="translate(610 865) scale(0.42)"><polygon points="-10,-130 -70,20 -8,20 -28,130 78,-40 8,-40 60,-130" fill="url(#volt)"/></g>
+  <rect x="680" y="815" width="100" height="100" rx="16" fill="url(#volt)"/>
+  <g transform="translate(730 865) scale(0.42)"><polygon points="-10,-130 -70,20 -8,20 -28,130 78,-40 8,-40 60,-130" fill="#0c0d10"/></g>
+  <!-- can mock -->
+  <rect x="80" y="960" width="740" height="180" rx="14" fill="#111318" stroke="#24272e"/>
+  <rect x="120" y="985" width="70" height="130" rx="14" fill="url(#volt)"/>
+  <text x="155" y="1060" text-anchor="middle" font-size="20" font-weight="900" fill="#0c0d10" transform="rotate(-90 155 1060)">VOLT</text>
+  <text x="230" y="1040" font-size="34" font-weight="900" fill="#fff" letter-spacing="2">PACKAGING</text>
+  <text x="230" y="1078" font-size="15" fill="#8a9096" font-family="Arial" letter-spacing="1">Bold. Electric. Unmistakable.</text>
+</svg>

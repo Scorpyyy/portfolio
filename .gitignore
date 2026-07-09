@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+
+# Claude Code local config (not needed for the published site)
+.claude/
+
+# Dependencies / build (in case you add tooling later)
+node_modules/
+dist/
+.cache/

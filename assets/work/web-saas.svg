@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="ng" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="nbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1226"/><stop offset="1" stop-color="#0a0f1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#05070f"/>
+  <rect x="40" y="50" width="820" height="1100" rx="18" fill="url(#nbg)"/>
+  <!-- chrome -->
+  <rect x="40" y="50" width="820" height="60" rx="18" fill="#111830"/><rect x="40" y="92" width="820" height="18" fill="#111830"/>
+  <circle cx="78" cy="80" r="7" fill="#ff5f57"/><circle cx="102" cy="80" r="7" fill="#febc2e"/><circle cx="126" cy="80" r="7" fill="#28c840"/>
+  <rect x="300" y="68" width="300" height="24" rx="12" fill="#0a0f1e"/>
+  <text x="450" y="85" text-anchor="middle" font-size="13" fill="#5b6580">nova.io</text>
+  <!-- glow -->
+  <circle cx="700" cy="360" r="260" fill="#6366f1" opacity="0.18"/>
+  <circle cx="250" cy="300" r="180" fill="#22d3ee" opacity="0.10"/>
+  <!-- nav -->
+  <g><rect x="80" y="150" width="26" height="26" rx="7" fill="url(#ng)"/><text x="118" y="171" font-size="22" font-weight="700" fill="#fff">Nova</text></g>
+  <g font-size="15" fill="#aeb6cc"><text x="470" y="169">Product</text><text x="570" y="169">Pricing</text><text x="660" y="169">Docs</text></g>
+  <rect x="730" y="146" width="90" height="34" rx="17" fill="url(#ng)"/><text x="775" y="169" text-anchor="middle" font-size="13" font-weight="700" fill="#05070f">Sign up</text>
+  <!-- hero -->
+  <rect x="80" y="240" width="150" height="30" rx="15" fill="#141b33"/><text x="155" y="261" text-anchor="middle" font-size="12" fill="#22d3ee" letter-spacing="1">✦ NEW · v2.0</text>
+  <text x="78" y="345" font-size="66" font-weight="800" fill="#ffffff">Ship faster</text>
+  <text x="78" y="415" font-size="66" font-weight="800" fill="url(#ng)">with Nova.</text>
+  <text x="80" y="462" font-size="17" fill="#8b93ad">The all-in-one platform for teams that build.</text>
+  <rect x="80" y="500" width="180" height="52" rx="26" fill="url(#ng)"/><text x="170" y="533" text-anchor="middle" font-size="15" font-weight="700" fill="#05070f">Get started →</text>
+  <rect x="280" y="500" width="150" height="52" rx="26" fill="none" stroke="#2b3352"/><text x="355" y="533" text-anchor="middle" font-size="15" fill="#c7cde0">Live demo</text>
+  <!-- dashboard card -->
+  <rect x="80" y="600" width="740" height="330" rx="16" fill="#0e1428" stroke="#1c2440"/>
+  <text x="110" y="645" font-size="15" fill="#aeb6cc">Revenue overview</text>
+  <text x="110" y="690" font-size="40" font-weight="800" fill="#fff">$48,250</text><text x="290" y="688" font-size="15" fill="#28c840">▲ 12.4%</text>
+  <!-- chart bars -->
+  <g fill="url(#ng)">
+    <rect x="110" y="820" width="52" height="70" rx="6"/><rect x="190" y="790" width="52" height="100" rx="6"/>
+    <rect x="270" y="760" width="52" height="130" rx="6"/><rect x="350" y="800" width="52" height="90" rx="6"/>
+    <rect x="430" y="740" width="52" height="150" rx="6"/><rect x="510" y="770" width="52" height="120" rx="6"/>
+    <rect x="590" y="720" width="52" height="170" rx="6"/><rect x="670" y="750" width="52" height="140" rx="6"/>
+  </g>
+  <!-- feature row -->
+  <g>
+    <rect x="80" y="960" width="235" height="150" rx="14" fill="#0e1428" stroke="#1c2440"/>
+    <rect x="105" y="985" width="40" height="40" rx="10" fill="#6366f1" opacity="0.25"/><text x="125" y="1012" text-anchor="middle" font-size="20" fill="#8b9bff">⚡</text>
+    <text x="105" y="1058" font-size="17" font-weight="700" fill="#fff">Fast</text><text x="105" y="1085" font-size="13" fill="#8b93ad">Deploy in seconds</text>
+  </g>
+  <g>
+    <rect x="332" y="960" width="235" height="150" rx="14" fill="#0e1428" stroke="#1c2440"/>
+    <rect x="357" y="985" width="40" height="40" rx="10" fill="#22d3ee" opacity="0.25"/><text x="377" y="1012" text-anchor="middle" font-size="20" fill="#22d3ee">◈</text>
+    <text x="357" y="1058" font-size="17" font-weight="700" fill="#fff">Secure</text><text x="357" y="1085" font-size="13" fill="#8b93ad">SOC-2 compliant</text>
+  </g>
+  <g>
+    <rect x="584" y="960" width="235" height="150" rx="14" fill="#0e1428" stroke="#1c2440"/>
+    <rect x="609" y="985" width="40" height="40" rx="10" fill="#a78bfa" opacity="0.25"/><text x="629" y="1012" text-anchor="middle" font-size="20" fill="#a78bfa">✦</text>
+    <text x="609" y="1058" font-size="17" font-weight="700" fill="#fff">Smart</text><text x="609" y="1085" font-size="13" fill="#8b93ad">AI insights</text>
+  </g>
+</svg>

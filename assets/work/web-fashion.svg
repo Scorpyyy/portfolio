@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="fh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c8bdb0"/><stop offset="0.6" stop-color="#8d8377"/><stop offset="1" stop-color="#3a3630"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#d8d3cc"/>
+  <rect x="40" y="50" width="820" height="1100" rx="18" fill="#ffffff"/>
+  <!-- chrome -->
+  <rect x="40" y="50" width="820" height="60" rx="18" fill="#f2efec"/><rect x="40" y="92" width="820" height="18" fill="#f2efec"/>
+  <circle cx="78" cy="80" r="7" fill="#d9d2c9"/><circle cx="102" cy="80" r="7" fill="#d9d2c9"/><circle cx="126" cy="80" r="7" fill="#d9d2c9"/>
+  <text x="450" y="85" text-anchor="middle" font-size="13" fill="#a39a8d" letter-spacing="1">maison.studio</text>
+  <!-- nav -->
+  <text x="450" y="176" text-anchor="middle" font-size="30" letter-spacing="10" fill="#141414" font-weight="300">M A I S O N</text>
+  <g font-size="13" fill="#6b6b6b" letter-spacing="2"><text x="90" y="172">SHOP</text><text x="170" y="172">NEW</text><text x="720" y="172">SEARCH</text><text x="810" y="172">BAG</text></g>
+  <!-- hero image -->
+  <rect x="80" y="210" width="740" height="560" fill="url(#fh)"/>
+  <!-- abstract model silhouette -->
+  <path d="M470 300 q60 10 55 90 q-5 70 40 140 q40 60 20 150 l-150 0 q-25 -110 5 -190 q30 -70 -5 -140 q-25 -50 30 -100 z" fill="#20201d" opacity="0.55"/>
+  <text x="120" y="330" font-size="16" fill="#fff" letter-spacing="4" opacity="0.9">AUTUMN / WINTER '25</text>
+  <text x="118" y="560" font-size="90" fill="#ffffff" font-weight="200" letter-spacing="2">NEW</text>
+  <text x="118" y="650" font-size="90" fill="#ffffff" font-weight="200" letter-spacing="2">COLLECTION</text>
+  <rect x="120" y="695" width="150" height="1.5" fill="#fff"/>
+  <text x="120" y="725" font-size="15" fill="#fff" letter-spacing="3">SHOP NOW  →</text>
+  <!-- product cards -->
+  <g>
+    <rect x="80" y="810" width="355" height="300" fill="#efeae4"/>
+    <path d="M210 860 q45 5 42 60 q-3 45 25 95 l-135 0 q25 -55 8 -100 q-15 -35 20 -70 q15 -25 40 -40z" fill="#b7ac9c"/>
+    <text x="80" y="1150" font-size="0"></text>
+  </g>
+  <text x="80" y="1060" font-size="17" fill="#141414" letter-spacing="1">Wool Coat — Camel</text>
+  <text x="80" y="1090" font-size="16" fill="#8a8a8a">$189</text>
+  <g>
+    <rect x="465" y="810" width="355" height="300" fill="#e6e0d8"/>
+    <path d="M610 860 q50 8 40 70 q-8 45 22 90 l-130 0 q22 -50 6 -95 q-14 -34 22 -68 q14 -20 40 -37z" fill="#8f8577"/>
+  </g>
+  <text x="465" y="1060" font-size="17" fill="#141414" letter-spacing="1">Silk Dress — Noir</text>
+  <text x="465" y="1090" font-size="16" fill="#8a8a8a">$245</text>
+</svg>
