@@ -249,7 +249,7 @@
      If left empty, the form opens the visitor's email app addressed to
      you instead (works with zero setup).
      ===================================================== */
-  var FORM_ENDPOINT = '';
+  var FORM_ENDPOINT = 'https://formspree.io/f/xbdvnjen';
   var CONTACT_EMAIL = 'yassminachatt4@gmail.com';
 
   function initForm() {
