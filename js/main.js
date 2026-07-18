@@ -129,6 +129,11 @@
     }
     if (hasGSAP && window.ScrollTrigger) {
       reveals.forEach(function (el) {
+        // Elements already in view on load won't get an onEnter — reveal them now.
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.9) {
+          el.classList.add('is-in');
+          return;
+        }
         ScrollTrigger.create({
           trigger: el, start: 'top 88%',
           onEnter: function () { el.classList.add('is-in'); },
@@ -360,6 +365,22 @@
   }
 
   /* =====================================================
+     FAQ ACCORDION (pricing page)
+     ===================================================== */
+  function initFaq() {
+    var items = document.querySelectorAll('.faq-item');
+    if (!items.length) return;
+    items.forEach(function (item) {
+      var q = item.querySelector('.faq-q');
+      if (!q) return;
+      q.addEventListener('click', function () {
+        var open = item.classList.toggle('is-open');
+        q.setAttribute('aria-expanded', String(open));
+      });
+    });
+  }
+
+  /* =====================================================
      BOOT
      ===================================================== */
   function boot() {
@@ -371,6 +392,7 @@
     initFilters();
     initForm();
     initCopy();
+    initFaq();
     startGlitchLoop();
   }
 
